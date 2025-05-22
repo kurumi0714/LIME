@@ -14,12 +14,12 @@ public class Constants {
         }
     }
 
-    static final HookTarget USER_AGENT_HOOK = new HookTarget("Sg1.c", "j");
-    static final HookTarget WEBVIEW_CLIENT_HOOK = new HookTarget("FO0.l", "onPageFinished");
-    static final HookTarget MUTE_MESSAGE_HOOK = new HookTarget("Lf1.b", "I");
-    static final HookTarget MARK_AS_READ_HOOK = new HookTarget("KO.d$d", "run");
-    static final HookTarget ARCHIVE_HOOK = new HookTarget("tB.P", "invokeSuspend");
-    static final HookTarget NOTIFICATION_READ_HOOK = new HookTarget("mh1.b", "invokeSuspend");
-    static final HookTarget REQUEST_HOOK = new HookTarget("org.apache.thrift.l", "b");
-    static final HookTarget RESPONSE_HOOK = new HookTarget("org.apache.thrift.l", "a");
+    static final HookTarget USER_AGENT_HOOK = new HookTarget("xj1.c", "j");
+    static final HookTarget WEBVIEW_CLIENT_HOOK = new HookTarget("bT0.l", "onPageFinished");
+    static final HookTarget MUTE_MESSAGE_HOOK = new HookTarget("qi1.b", "I");
+    static final HookTarget MARK_AS_READ_HOOK = new HookTarget("vq.c$d", "run");
+    static final HookTarget ARCHIVE_HOOK = new HookTarget("JC.b0", "invokeSuspend");
+    static final HookTarget NOTIFICATION_READ_HOOK = new HookTarget("Rj1.b", "invokeSuspend");
+    static final HookTarget REQUEST_HOOK = new HookTarget("org.apache.thrift.m", "b");
+    static final HookTarget RESPONSE_HOOK = new HookTarget("org.apache.thrift.m", "a");
 }
